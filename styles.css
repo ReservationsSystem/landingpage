@@ -10,7 +10,7 @@
       text-transform: uppercase;
     }
     .sid-h2 {
-      font-size: 28px;
+      font-size: 25px;
       font-family: 'Montserrat', sans-serif;
     }
     .sid-h3 {
@@ -72,9 +72,60 @@
       color: #998E37;
       font-weight: bold;
     }
-    .div-circle {
+    .div-circle-right {
       background-image: url(media/circleshape.svg);"
       background-size: 100%;
       background-repeat: no-repeat;
       background-position: top 0% right 0% !important;
+    }
+    .div-circle-left {
+      background-image: url(media/circleshapeleft.svg);"
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: top 0% left 0% !important;
+    }
+    .casos-de-exito-sec {
+      width: 100%;
+      height: 565 !important; 
+      background-color: #1D1D1D;
+    }
+    .camp-logo {
+      position: relative;
+      left: 150px;
+      top: 45px;
+      height: 219px;
+      width: 442px;
+    }
+    .v-line {
+      position: relative;
+      left: 300px;
+      top: 65px;
+    }
+    .casos-de-exito-text {
+      position: relative;
+      font-size: 26px;
+      color: white;
+      bottom: 130px;
+      left: 880px;
+    }
+    .div-premium-img {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .premium-img {
+      width: 1191px;
+      height: 844px;
+    }
+    .div-faq {
+      margin-left: 250px;
+      margin-right: 250px;
+    }
+    .call-to-action-div {
+      border: solid;
+      border-width: 3px;
+      border-color: #998E37;
+      margin-left: 210px;
+      margin-right: 210px;
     }
