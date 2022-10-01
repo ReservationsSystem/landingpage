@@ -80,7 +80,8 @@
     }
     .div-circle-left {
       background-image: url(media/circleshapeleft.svg);"
-      background-size: 100%;
+      background-size: 85%;
+      back
       background-repeat: no-repeat;
       background-position: top 0% left 0% !important;
     }
