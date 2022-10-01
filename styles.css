@@ -30,7 +30,6 @@
         background-color: #AB9F3C;
       color: white;
       border: none;
-      border-radius: 10px;
     }
     .cita-btn:hover {
       background-color: white;
@@ -59,7 +58,7 @@
     }
     .card-img-bg {
     }
-    .card-img-bg:hover {
+    .ca:hover {
        filter: grayscale(100%) brightness(120%) sepia(90%) hue-rotate(5deg) saturate(300%) contrast(0.7);
     }
     .sid-h3-gold {
@@ -80,8 +79,7 @@
     }
     .div-circle-left {
       background-image: url(media/circleshapeleft.svg);"
-      background-size: 85%;
-      back
+      background-size: 100%;
       background-repeat: no-repeat;
       background-position: top 0% left 0% !important;
     }
