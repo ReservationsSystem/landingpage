@@ -22,12 +22,10 @@
       position: absolute;
       width: 380px;
       height: 65px;
-        left: 50%;
-        transform: translate(-50%);
-
-        font-size: 20px;
-
-        background-color: #AB9F3C;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 20px;
+      background-color: #AB9F3C;
       color: white;
       border: none;
     }
