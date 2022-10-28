@@ -132,9 +132,8 @@
       background-position: top 0% left 0% !important;
     }
     .casos-de-exito-sec {
-      width: 100vw;
-      margin-left: -50vw;
-      margin-right: -50vw;
+      width: auto;
+      
       height: 620px !important; 
       background-color: #1D1D1D;
     }
