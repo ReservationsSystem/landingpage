@@ -1,4 +1,7 @@
 @media (max-width: 970px) {
+  .br-comp {
+    display: none;
+  }
   .sid-links {
       color: #998E37;
       font-weight: 600;
@@ -18,14 +21,44 @@
       font-size: 25px;
       font-family: 'Montserrat', sans-serif;
     }
+    .sid-h2-faq {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .sid-h2-ph {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      padding-right: 25px;
+      margin-bottom: 35px;
+    }
+    .sid-h2-nlh {
+      font-size: 20px;
+      font-family: 'Montserrat', sans-serif;
+    }
     .sid-h3 {
       font-size: 45px;
       font-family: 'Judson';
       font-weight: 700;
     }
+    .sid-h3-ph {
+      padding-right: 25px;
+      font-size: 35px;
+      font-family: 'Judson';
+      font-weight: 700;
+      text-align: center;
+    }
+    .sid-h3-nlh {
+      font-size: 30px;
+      font-family: 'Judson';
+      font-weight: 700;
+    }
+    .phone-img {
+      display: none;
+    }
     .cita-btn {
       position: absolute;
-      width: 380px;
+      width: 330px;
       height: 65px;
       left: 50%;
       transform: translate(-50%);
@@ -41,7 +74,7 @@
       color: #AB9F3C;
     }
     #main-logo {
-      width: 150%;
+      width: 90%;
       height: 150%;
       margin-left: 15px;
       margin-top: 25px;
@@ -70,6 +103,18 @@
       font-weight: 700;
       color: #998E37;
     }
+    .sid-h3-nlh-gold {
+      font-size: 30px;
+      font-family: 'Judson';
+      font-weight: 700;
+      color: #998E37;
+    }
+    .sid-h3-cta {
+      font-size: 33px;
+      font-family: 'Judson';
+      font-weight: 700;
+      margin-top: 50px;
+    }
     span {
       color: #998E37;
       font-weight: bold;
@@ -90,12 +135,12 @@
       width: 100vw;
       margin-left: -50vw;
       margin-right: -50vw;
-      height: 500px !important; 
+      height: 620px !important; 
       background-color: #1D1D1D;
     }
     .camp-logo {
-      height: 45%;
-      width: 65%;
+      height: 40%;
+      width: 75%;
       margin-top: 100px;
     }
     .v-line {
@@ -104,10 +149,9 @@
       top: 65px;
     }
     .casos-de-exito-text {
-      font-size: 22px;
+      font-size: 16px;
       color: white;
-      margin-top: 170px;
-      text-align: left;
+      text-align: center;
     }
     .div-premium-img {
       width: 100%;
@@ -118,21 +162,25 @@
     .premium-img {
       width: 1191px;
       height: 844px;
+      display: none;
     }
     .div-faq {
-      margin-left: 250px;
-      margin-right: 250px;
+      margin-left: 25px;
+      margin-right: 25px;
     }
     .call-to-action-div {
       border: solid;
       border-width: 3px;
       border-color: #998E37;
-      margin-left: 210px;
-      margin-right: 210px;
+      margin-left: 21px;
+      margin-right: 21px;
     }
 }
 
 @media (min-width: 970px) {
+  .br-mob {
+    display: none;
+  }
   .sid-links {
       color: #998E37;
       font-weight: 600;
@@ -148,7 +196,29 @@
       font-size: 25px;
       font-family: 'Montserrat', sans-serif;
     }
+    .sid-h2-faq {
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .sid-h2-ph {
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    .sid-h2-nlh {
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+    }
     .sid-h3 {
+      font-size: 45px;
+      font-family: 'Judson';
+      font-weight: 700;
+    }
+    .sid-h3-ph {
+      font-size: 45px;
+      font-family: 'Judson';
+      font-weight: 700;
+    }
+    .sid-h3-nlh {
       font-size: 45px;
       font-family: 'Judson';
       font-weight: 700;
@@ -199,6 +269,18 @@
       font-family: 'Judson';
       font-weight: 700;
       color: #998E37;
+    }
+    .sid-h3-nlh-gold {
+      font-size: 45px;
+      font-family: 'Judson';
+      font-weight: 700;
+      color: #998E37;
+    }
+    .sid-h3-cta {
+      font-size: 45px;
+      font-family: 'Judson';
+      font-weight: 700;
+      margin-top: 100px;
     }
     span {
       color: #998E37;
